@@ -6,3 +6,5 @@ export const addCard = card => ({ type: 'ADD_CARD', data: card});
 
 export const updateCard = card => ({ type: 'UPDATE_CARD', data: card});
 export const deleteCard = cardId => ({ type: 'DELETE_CARD', data: cardId});
+
+export const filterCards = query => ({ type: 'FILTER_CARDS', data: query});
